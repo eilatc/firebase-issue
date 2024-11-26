@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",          // Use commonjs to ensure compatibility with Firebase Functions
+    "moduleResolution": "node",    // Resolve modules in a way that Node.js does
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017"
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
